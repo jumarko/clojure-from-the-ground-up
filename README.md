@@ -1,36 +1,8 @@
 # clojure-from-the-ground-up
 
-FIXME: description
+Repository for wonderful series of Clojure tutorials: https://aphyr.com/tags/Clojure-from-the-ground-up.
 
-## Installation
-
-Download from http://example.com/FIXME.
-
-## Usage
-
-FIXME: explanation
-
-    $ java -jar clojure-from-the-ground-up-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+## Source code structure
+One blog post is usually represented by one namespace in src/clojure-from-the-ground-up.
+For some of them (e.g. sequences) you will also find {article}_namespace.clj file which contains
+solutions for aditional excercises mentioned at the end of relevat blog post.
